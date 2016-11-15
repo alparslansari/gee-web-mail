@@ -520,7 +520,7 @@ if (strpos($username, '\'') !== FALSE)
   if(strlen($errmsg) < 5)
   {
     $opmode = "0"; // Login operation
-    $password = str_replace("\"", "", $password);
+    $password = str_replace("\"", "", $password1);
     $password = str_replace("\"", "", $password);
 
     exec("./gee-mail-ws $opmode \"$username\" \"$password\"",$out,$retv);
