@@ -5,7 +5,7 @@ Please see the desktop version:
 https://github.com/kkatayama/Gee-Mail
 
 # Linux Compile
-g++ -std=c++11 -I/usr/include/cryptopp \*.cpp cryptogm/*.cpp GeeMail/*.cpp GraphicEngine/*.cpp -lcryptopp -lsqlite3 -o gee-mail-ws
+g++ -std=c++11 -I/usr/include/cryptopp \*.cpp cryptogm/\*.cpp GeeMail/\*.cpp GraphicEngine/\*.cpp -lcryptopp -lsqlite3 -o gee-mail-ws
 
 # Notes
 gee-mail-ws is the driver between crypto libraries and DB libraries which are used by our destop version.
